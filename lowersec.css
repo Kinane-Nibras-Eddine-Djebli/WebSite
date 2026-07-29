@@ -1,0 +1,170 @@
+.skills-section {
+  background-color: #22252b;
+  padding: 80px 8%;
+  text-align: center;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/*Header Styling*/
+.skills-header {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.mouse-icon {
+  color: #2ee6c9;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dotted-line {
+  width: 2px;
+  height: 40px;
+  border-left: 2px dotted #2ee6c9;
+  margin-top: 5px;
+}
+
+.code-icon-bg {
+    font-size: 50px;
+    color: #2ee6c9;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.skills-title {
+  font-size: 36px;
+  color: #2ee6c9;
+  margin: 10px 0;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.title-underline {
+  width: 60px;
+  height: 3px;
+  background: #2ee6c9;
+  margin: 0 auto 15px;
+  border-radius: 2px;
+}
+
+.skills-subtitle {
+  color: #cfd3da;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/*Service Cards*/
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #a3f7eb; /*Light cyan background from image*/
+  color: #1c1f26;
+  padding: 30px 50px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card i {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.service-card p {
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+/*Tech Circles*/
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.tech-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.tech-circle:hover {
+    transform: scale(1.1);
+}
+
+.tech-item span {
+  color: #cfd3da;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Tech Colors */
+.html { background-color: #e34f26; }
+.css  { background-color: #1572b6; }
+.js   { background-color: #f7df1e; color: #000; }
+.react { background-color: #61dafb; }
+
+.tech-circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.java {
+  background: linear-gradient(135deg, #f89820, #b07219);
+  font-size: 18px;
+}
+
+.c-lang {
+  background: linear-gradient(135deg, #00599c, #00427e);
+  font-size: 30px;
+}
+
+.mysql {
+  background: linear-gradient(135deg, #00758f, #f29111);
+  font-size: 20px;
+}
