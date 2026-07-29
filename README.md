@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 Features a sleek dark theme with teal accents, animated skill sections,
 and a clean, professional layout.
 
-![Preview](https://via.placeholder.com/800x400/1a3d3a/2ee6c9?text=Portfolio+Preview)
+![Preview](https://kinane-nibras-eddine-djebli.github.io/WebSite/#)
 
 ---
 
